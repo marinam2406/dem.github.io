@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Crossword (English)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            padding: 20px;
+            color: #2c3e50;
+        }
+        h1 {
+            text-align: center;
+            color: #c0392b;
+        }
+        .grid {
+            display: inline-grid;
+            grid-template-columns: repeat(6, 40px);
+            gap: 1px;
+            margin: 20px auto;
+            border: 2px solid #333;
+        }
+        .cell {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border: 1px solid #999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+        .black {
+            background-color: black;
+        }
+        .number {
+            position: relative;
+            font-size: 10px;
+            top: -15px;
+            left: -15px;
+            color: black;
+        }
+        .clues {
+            max-width: 500px;
+            margin: 20px auto;
+        }
+        .clues h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #c0392b;
+            padding-bottom: 5px;
+        }
+        .clue {
+            margin: 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎄 Christmas Crossword (5 Words) 🎄</h1>
+
+    <!-- Кроссворд 6×6 -->
+    <div class="grid">
+        <!-- Row 1 -->
+        <div class="cell black"></div>
+        <div class="cell black"></div>
+        <div class="cell black"></div>
+        <div class="cell black"></div>
+        <div class="cell black"></div>
+        <div class="cell black"></div>
+
+        <!-- Row 2 -->
+        <div class="cell black"></div>
+        <div class="cell"><span class="number">1</span>S</div>
+        <div class="cell">A</div>
+        <div class="cell">N</div>
+        <div class="cell">T</div>
+        <div class="cell">A</div>
+
+        <!-- Row 3 -->
+        <div class="cell"><span class="number">2</span>T</div>
+        <div class="cell">R</div>
+        <div class="cell">E</div>
+        <div class="cell">E</div>
+        <div class="cell black"></div>
+        <div class="cell black"></div>
+
+        <!-- Row 4 -->
+        <div class="cell"><span class="number">3</span>G</div>
+        <div class="cell">I</div>
+        <div class="cell">F</div>
+        <div class="cell">T</div>
+        <div class="cell black"></div>
+        <div class="cell black"></div>
+
+        <!-- Row 5 -->
+        <div class="cell"><span class="number">4</span>S</div>
+        <div class="cell">N</div>
+        <div class="cell">O</div>
+        <div class="cell">W</div>
+        <div class="cell black"></div>
+        <div class="cell black"></div>
+
+        <!-- Row 6 -->
+        <div class="cell"><span class="number">5</span>B</div>
+        <div class="cell">E</div>
+        <div class="cell">L</div>
+        <div class="cell">L</div>
+        <div class="cell black"></div>
+        <div class="cell black"></div>
+    </div>
+
+    <div class="clues">
+        <h2>Across:</h2>
+        <div class="clue"><b>2.</b> Evergreen plant decorated at Christmas (4)</div>
+        <div class="clue"><b>3.</b> Present you receive under the tree (4)</div>
+        <div class="clue"><b>4.</b> White winter precipitation (4)</div>
+        <div class="clue"><b>5.</b> Jingle __ — makes a ringing sound (4)</div>
+
+        <h2>Down:</h2>
+        <div class="clue"><b>1.</b> Jolly man in red who brings gifts (5)</div>
+    </div>
+
+    <p style="text-align: center; margin-top: 30px; font-style: italic; color: #7f8c8d;">
+        Happy Holidays! 🎁
+    </p>
+</body>
+</html>
